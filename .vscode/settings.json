@@ -9,7 +9,6 @@
     }
   },
   "ruby.format": "rubocop",
-  "ruby.useLanguageServer": true,
-  "solargraph.useBundler": true, // use rubocop for formatting
+  "ruby.useLanguageServer": true, // use rubocop for formatting
   "editor.formatOnSave": true
 }
