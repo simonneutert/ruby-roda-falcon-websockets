@@ -1,6 +1,5 @@
 {
-  "solargraph.formatting": true,
-  "solargraph.useBundler": true, // use the internal language server (see below)
+  "solargraph.formatting": true, // use the internal language server (see below)
   "ruby.lint": {
     "rubocop": {
       "useBundler": true // enable rubocop via bundler
@@ -11,5 +10,6 @@
   },
   "ruby.format": "rubocop",
   "ruby.useLanguageServer": true,
-  "editor.formatOnSave": true // use rubocop for formatting
+  "solargraph.useBundler": true, // use rubocop for formatting
+  "editor.formatOnSave": true
 }

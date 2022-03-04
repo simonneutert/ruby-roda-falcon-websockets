@@ -1,5 +1,3 @@
-require 'roda'
-
 class App < Roda
   plugin :websockets
 

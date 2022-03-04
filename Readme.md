@@ -5,9 +5,9 @@
 - Ruby v3.1.x
 - `$ bundle install`
 
-## Server
+## Server (Development)
 
-`falcon serve --preload "./main.rb" -n 1`
+`bundle exec falcon serve -n 1`
 
 ## Client
 

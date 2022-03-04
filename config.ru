@@ -2,11 +2,8 @@
 # frozen_string_literal: true
 
 require 'rubygems'
-require 'bundler'
-
+require 'bundler/setup'
 Bundler.require
 
-require 'roda'
-require_relative 'main'
-
+require_relative './main'
 run App.freeze.app

@@ -6,5 +6,8 @@ gem 'roda'
 gem 'roda-websockets'
 gem 'falcon'
 
-gem 'solargraph', group: :development
-gem 'rubocop', group: :development
+group :test, :development do
+  gem 'solargraph', group: :development, require: false
+  gem 'rubocop', group: :development, require: false
+  gem 'pry'
+end
