@@ -19,8 +19,9 @@ module Client
         connection.write MESSAGE
         connection.flush
 
-        message = connection.read
-        puts "Receiving message: #{message}"
+        while message = connection.read
+          puts "Receiving message: #{message.to_str}"
+        end
       end
     end
   end

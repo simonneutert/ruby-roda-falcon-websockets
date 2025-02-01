@@ -5,7 +5,7 @@ class App < Roda
     Async do |task|
       message = connection.read
       task.sleep(3) # Async I/O here
-      connection.write(message)
+      connection.write(message.to_str)
       connection.flush
       connection.close
     end
