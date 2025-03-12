@@ -70,7 +70,9 @@ GEM
     logger (1.6.5)
     mapping (1.1.1)
     metrics (0.12.1)
-    nokogiri (1.18.2-arm64-darwin)
+    nokogiri (1.18.3-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.18.3-x86_64-linux-gnu)
       racc (~> 1.4)
     observer (0.1.2)
     openssl (3.3.0)
@@ -155,6 +157,7 @@ GEM
 PLATFORMS
   arm64-darwin-21
   arm64-darwin-24
+  x86_64-linux
 
 DEPENDENCIES
   falcon
