@@ -72,6 +72,8 @@ GEM
     metrics (0.12.1)
     nokogiri (1.18.2-arm64-darwin)
       racc (~> 1.4)
+    nokogiri (1.18.2-x86_64-linux-gnu)
+      racc (~> 1.4)
     observer (0.1.2)
     openssl (3.3.0)
     ostruct (0.6.1)
@@ -96,7 +98,7 @@ GEM
     protocol-websocket (0.20.1)
       protocol-http (~> 0.2)
     racc (1.8.1)
-    rack (3.1.9)
+    rack (3.1.12)
     rainbow (3.1.1)
     rbs (3.8.1)
       logger
@@ -155,6 +157,7 @@ GEM
 PLATFORMS
   arm64-darwin-21
   arm64-darwin-24
+  x86_64-linux
 
 DEPENDENCIES
   falcon
