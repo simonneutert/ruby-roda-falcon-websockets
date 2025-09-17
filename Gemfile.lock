@@ -105,7 +105,7 @@ GEM
     regexp_parser (2.10.0)
     reverse_markdown (3.0.0)
       nokogiri
-    rexml (3.4.0)
+    rexml (3.4.2)
     roda (3.88.0)
       rack
     roda-websockets (0.1.0)
