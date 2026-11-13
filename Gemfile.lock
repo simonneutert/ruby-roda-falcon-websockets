@@ -131,7 +131,7 @@ GEM
     reverse_markdown (3.0.2)
       nokogiri
     rexml (3.4.4)
-    roda (3.101.0)
+    roda (3.109.0)
       rack
     roda-websockets (0.1.0)
       async-websocket (~> 0.12)
